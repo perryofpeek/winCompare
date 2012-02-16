@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinCompare", "WinCompare\WinCompare.csproj", "{40BE470A-4761-4B8E-96DA-5BE8255872E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{80E82A4D-BBC8-4A07-A8C1-044542D7228B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40BE470A-4761-4B8E-96DA-5BE8255872E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40BE470A-4761-4B8E-96DA-5BE8255872E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40BE470A-4761-4B8E-96DA-5BE8255872E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40BE470A-4761-4B8E-96DA-5BE8255872E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80E82A4D-BBC8-4A07-A8C1-044542D7228B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E82A4D-BBC8-4A07-A8C1-044542D7228B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E82A4D-BBC8-4A07-A8C1-044542D7228B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E82A4D-BBC8-4A07-A8C1-044542D7228B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
