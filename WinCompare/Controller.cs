@@ -23,7 +23,7 @@
             var rightCompare = new FolderHasher(new Hasher(new Hash(), ignoreList),debug);
 
             leftCompare.SetFolder(leftPath);
-            rightCompare.SetFolder(leftPath);
+            rightCompare.SetFolder(rightPath);
             var l = new Thread(leftCompare.Process1);
             var r = new Thread(rightCompare.Process1);
 

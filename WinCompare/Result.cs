@@ -4,6 +4,11 @@ namespace WinCompare
 
     public class Result
     {
+        public Result()
+        {
+            Diff = new List<FileData>();
+        }
+
         public bool AreEqual()
         {
             return this.Diff.Count == 0;

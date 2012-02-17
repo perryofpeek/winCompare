@@ -62,7 +62,7 @@
     <Compile Include="With_Hasher.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Md5Compare\WinCompare.csproj">
+    <ProjectReference Include="..\WinCompare\WinCompare.csproj">
       <Project>{40BE470A-4761-4B8E-96DA-5BE8255872E2}</Project>
       <Name>WinCompare</Name>
     </ProjectReference>

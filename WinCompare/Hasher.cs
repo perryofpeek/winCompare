@@ -34,6 +34,13 @@
                     ExamineDir(strDirName, rootDir);
                 }
             }
+            if (strDir == rootDir)
+            {
+                foreach (var file in Directory.GetFiles(strDir))
+                {
+                    Files.Add(file, rootDir);
+                }                
+            }
         }
     }
 }
