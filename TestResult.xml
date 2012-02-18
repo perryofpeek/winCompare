@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\git\perryOfPeek\winCompare\UnitTests\bin\Release\UnitTests.dll" total="10" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-02-18" time="16:42:20">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.5448" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\git\perryOfPeek\winCompare" machine-name="TTL001121" user="owainp" user-domain="TTLWIN2K" />
+  <culture-info current-culture="en-GB" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\git\perryOfPeek\winCompare\UnitTests\bin\Release\UnitTests.dll" executed="True" result="Success" success="True" time="0.736" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="UnitTests" executed="True" result="Success" success="True" time="0.721" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="With_Comparison" executed="True" result="Success" success="True" time="0.186" asserts="0">
+            <results>
+              <test-case name="UnitTests.With_Comparison.should_find_differences_missing_on_both_between_left_and_right" executed="True" result="Success" success="True" time="0.139" asserts="7" />
+              <test-case name="UnitTests.With_Comparison.should_find_no_differences_between_left_and_right" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="UnitTests.With_Comparison.should_find_one_difference_in_hash_between_left_and_right" executed="True" result="Success" success="True" time="0.003" asserts="6" />
+              <test-case name="UnitTests.With_Comparison.should_find_one_difference_missing_on_left_between_left_and_right" executed="True" result="Success" success="True" time="0.001" asserts="5" />
+              <test-case name="UnitTests.With_Comparison.should_find_one_difference_missing_on_right_between_left_and_right" executed="True" result="Success" success="True" time="0.002" asserts="5" />
+              <test-case name="UnitTests.With_Comparison.should_return_timespan_of_time_taken_to_compare" executed="True" result="Success" success="True" time="0.014" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="With_FolderHasher" executed="True" result="Success" success="True" time="0.501" asserts="0">
+            <results>
+              <test-case name="UnitTests.With_FolderHasher.should_get_single_folder" executed="True" result="Success" success="True" time="0.500" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="With_hash" executed="True" result="Success" success="True" time="0.011" asserts="0">
+            <results>
+              <test-case name="UnitTests.With_hash.Should_hash_a_file" executed="True" result="Success" success="True" time="0.010" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="With_Hasher" executed="True" result="Success" success="True" time="0.014" asserts="0">
+            <results>
+              <test-case name="UnitTests.With_Hasher.Should_hash_folder" executed="True" result="Success" success="True" time="0.008" asserts="8" />
+              <test-case name="UnitTests.With_Hasher.Should_ignore_a_folder" executed="True" result="Success" success="True" time="0.004" asserts="8" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

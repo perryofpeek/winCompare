@@ -56,7 +56,6 @@
     <Compile Include="Copy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="With_compare.cs" />
-    <Compile Include="With_Comparer.cs" />
     <Compile Include="With_FolderHasher.cs" />
     <Compile Include="With_hash.cs" />
     <Compile Include="With_Hasher.cs" />
